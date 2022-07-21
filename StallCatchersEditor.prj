@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="3026808181" file="C:\Users\mrela\OneDrive - Cornell University\Matlab\StallCatchersEditor\StallCatchersEditor.prj" location="C:\Users\mrela\OneDrive - Cornell University\Matlab\StallCatchersEditor" name="StallCatchersEditor" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="3698153143" file="C:\Users\mrela\OneDrive - Cornell University\Matlab\StallCatchersEditor\StallCatchersEditor.prj" location="C:\Users\mrela\OneDrive - Cornell University\Matlab\StallCatchersEditor" name="StallCatchersEditor" target="target.mlapps" target-name="Package App">
     <param.appname>StallCatchersEditor</param.appname>
     <param.authnamewatermark>Michael R.E. Lamont</param.authnamewatermark>
     <param.email>ml624@cornell.edu</param.email>
