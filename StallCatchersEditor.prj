@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="3698153143" file="C:\Users\mrela\OneDrive - Cornell University\Matlab\StallCatchersEditor\StallCatchersEditor.prj" location="C:\Users\mrela\OneDrive - Cornell University\Matlab\StallCatchersEditor" name="StallCatchersEditor" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="307385894" file="C:\Users\mrela\OneDrive - Cornell University\Github\StallCatchersEditor\StallCatchersEditor.prj" location="C:\Users\mrela\OneDrive - Cornell University\Github\StallCatchersEditor" name="StallCatchersEditor" target="target.mlapps" target-name="Package App">
     <param.appname>StallCatchersEditor</param.appname>
     <param.authnamewatermark>Michael R.E. Lamont</param.authnamewatermark>
     <param.email>ml624@cornell.edu</param.email>
@@ -32,11 +32,13 @@
     <fileset.main>
       <file>${PROJECT_ROOT}\StallCatchersEditor.mlapp</file>
     </fileset.main>
-    <fileset.depfun />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\DeepVessAnalysisEditorConfig.mat</file>
+    </fileset.depfun>
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="${PROJECT_ROOT}" name="Install" optional="false">C:\Users\mrela\OneDrive - Cornell University\Matlab\StallCatchersEditor\Install</file>
+      <file location="${PROJECT_ROOT}" name="Install" optional="false">C:\Users\mrela\OneDrive - Cornell University\Github\StallCatchersEditor\Install</file>
     </build-deliverables>
     <workflow />
     <matlab>
