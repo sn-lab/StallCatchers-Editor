@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="1097824321" file="C:\Users\mrela\OneDrive - Cornell University\Github\StallCatchers-Editor\StallCatchers Editor.prj" location="C:\Users\mrela\OneDrive - Cornell University\Github\StallCatchers-Editor" name="StallCatchers Editor" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="903093027" file="C:\Users\mrela\OneDrive - Cornell University\Github\StallCatchers-Editor\StallCatchers Editor.prj" location="C:\Users\mrela\OneDrive - Cornell University\Github\StallCatchers-Editor" name="StallCatchers Editor" target="target.mlapps" target-name="Package App">
     <param.appname>StallCatchers Editor</param.appname>
     <param.authnamewatermark>Michael R.E. Lamont</param.authnamewatermark>
     <param.email>ml624@cornell.edu</param.email>
@@ -31,7 +31,9 @@
     <fileset.main>
       <file>${PROJECT_ROOT}\StallCatchersEditor.mlapp</file>
     </fileset.main>
-    <fileset.depfun />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\StallCatchersEditorConfig.mat</file>
+    </fileset.depfun>
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
