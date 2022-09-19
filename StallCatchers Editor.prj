@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="903093027" file="C:\Users\mrela\OneDrive - Cornell University\Github\StallCatchers-Editor\StallCatchers Editor.prj" location="C:\Users\mrela\OneDrive - Cornell University\Github\StallCatchers-Editor" name="StallCatchers Editor" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="3387204000" file="C:\Users\mrela\OneDrive - Cornell University\Github\StallCatchers-Editor\StallCatchers Editor.prj" location="C:\Users\mrela\OneDrive - Cornell University\Github\StallCatchers-Editor" name="StallCatchers Editor" target="target.mlapps" target-name="Package App">
     <param.appname>StallCatchers Editor</param.appname>
     <param.authnamewatermark>Michael R.E. Lamont</param.authnamewatermark>
     <param.email>ml624@cornell.edu</param.email>
@@ -8,7 +8,7 @@
     <param.icons />
     <param.summary>Curate DeepVess-processed 'Analysis-*.mat' file for upload to StallCatchers</param.summary>
     <param.description />
-    <param.screenshot>${PROJECT_ROOT}\Screenshot 2022-07-20 005038.jpg</param.screenshot>
+    <param.screenshot>C:\Users\mrela\AppData\Local\Temp\tp61ef03ef_2ae2_4fc9_ae25_dd5e28e49b10.png</param.screenshot>
     <param.version>1.1</param.version>
     <param.products.name />
     <param.products.id />
@@ -31,9 +31,7 @@
     <fileset.main>
       <file>${PROJECT_ROOT}\StallCatchersEditor.mlapp</file>
     </fileset.main>
-    <fileset.depfun>
-      <file>${PROJECT_ROOT}\StallCatchersEditorConfig.mat</file>
-    </fileset.depfun>
+    <fileset.depfun />
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
