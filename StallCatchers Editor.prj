@@ -1,32 +1,34 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="3387204000" file="C:\Users\mrela\OneDrive - Cornell University\Github\StallCatchers-Editor\StallCatchers Editor.prj" location="C:\Users\mrela\OneDrive - Cornell University\Github\StallCatchers-Editor" name="StallCatchers Editor" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="3539221147" file="C:\Users\mrela\OneDrive - Cornell University\Github\StallCatchers-Editor\StallCatchers Editor.prj" location="C:\Users\mrela\OneDrive - Cornell University\Github\StallCatchers-Editor" name="StallCatchers Editor" target="target.mlapps" target-name="Package App">
     <param.appname>StallCatchers Editor</param.appname>
     <param.authnamewatermark>Michael R.E. Lamont</param.authnamewatermark>
     <param.email>ml624@cornell.edu</param.email>
     <param.company>Schaffer-Nishimura Lab, BME Cornell</param.company>
     <param.icon />
     <param.icons />
-    <param.summary>Curate DeepVess-processed 'Analysis-*.mat' file for upload to StallCatchers</param.summary>
+    <param.summary />
     <param.description />
-    <param.screenshot>C:\Users\mrela\AppData\Local\Temp\tp61ef03ef_2ae2_4fc9_ae25_dd5e28e49b10.png</param.screenshot>
+    <param.screenshot>C:\Users\mrela\AppData\Local\Temp\tpf4569cd4_a11f_4832_a443_5d2c1c5fa3fd.png</param.screenshot>
     <param.version>1.1</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
     <param.platforms />
-    <param.output>${PROJECT_ROOT}\Install</param.output>
-    <param.guid>88457973-044e-442b-a517-31bd61179d21</param.guid>
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>c2cd7229-76ba-48a2-874b-c0ad71bd2be9</param.guid>
     <unset>
       <param.authnamewatermark />
       <param.email />
       <param.company />
       <param.icon />
       <param.icons />
+      <param.summary />
       <param.description />
       <param.products.name />
       <param.products.id />
       <param.products.version />
       <param.platforms />
+      <param.output />
     </unset>
     <fileset.main>
       <file>${PROJECT_ROOT}\StallCatchersEditor.mlapp</file>
@@ -35,14 +37,18 @@
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="${PROJECT_ROOT}" name="Install" optional="false">C:\Users\mrela\OneDrive - Cornell University\Github\StallCatchers-Editor\Install</file>
+      <file location="C:\Users\mrela\OneDrive - Cornell University\Github" name="StallCatchers-Editor" optional="false">C:\Users\mrela\OneDrive - Cornell University\Github\StallCatchers-Editor</file>
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>C:\Program Files\MATLAB\R2021a</root>
+      <root>C:\Program Files\MATLAB\R2023a</root>
       <toolboxes>
         <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
         <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
       </toolboxes>
       <toolbox>
         <matlabcoder>
@@ -50,9 +56,29 @@
         </matlabcoder>
       </toolbox>
       <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
         <gpucoder>
           <enabled>true</enabled>
         </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
       </toolbox>
     </matlab>
     <platform>
